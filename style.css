@@ -1,0 +1,98 @@
+body {
+  background: #505085;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  color: white;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+.celsius {
+  color: white;
+  text-decoration: none;
+}
+.celsius:hover {
+  color: white;
+  text-decoration: underline;
+}
+.fahrenheit {
+  color: white;
+  text-decoration: none;
+}
+.fahrenheit:hover {
+  color: white;
+  text-decoration: underline;
+}
+.sun-current {
+  text-align: center;
+  font-size: 64px;
+  margin-top: 15px;
+  color: #fec901;
+}
+.sun {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 15px;
+  color: #adb5bd;
+}
+.cloud {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 15px;
+  color: #adb5bd;
+}
+.cloud-sun {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 15px;
+  color: #adb5bd;
+}
+.rain {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 15px;
+  color: #adb5bd;
+}
+.current-temp {
+  text-align: center;
+}
+.card {
+  text-align: center;
+  font-size: 18px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-secondary {
+  border-color: #6c757d;
+  border-width: 2px;
+  color: white;
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  border-color: #495057;
+  color: white;
+  background-color: #495057;
+}
+.btn-outline-secondary {
+  border-color: none;
+  color: white;
+  background-color: none;
+}
+.btn-outline-secondary:hover {
+  border-color: none;
+  color: white;
+  background-color: #495057;
+}
+
+.input-group {
+  margin-top: 25px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/313e609361.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <form class="container" id="search-form">
+      <div class="row" id="searchCity">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="search for a city"
+            aria-label="search"
+            aria-describedby="button-addon2"
+            id="city-search-input"
+          />
+          <input
+            class="btn btn-secondary"
+            type="submit"
+            id="search"
+            value="search"
+          >
+        </input>
+        <input
+            class="btn btn-outline-secondary"
+            type="submit"
+            id="current-location"
+            value="current location"
+          >
+        </input>
+        </div>
+      </form>
+      <h2></h2>
+      <div class="row">
+        <h1>Melbourne</h1>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 id="dayTime">Mon 1:00pm</h3>
+          <h3 id="temp-description">Sunny</h3>
+        </div>
+      </div>
+      <div class="row">
+        <i class="fas fa-sun sun-current"></i>
+      </div>
+      <br />
+      <div class="row">
+        <h3> <span class="current-temp" id="current-temp">24</span><span>
+          <a href="current-temp" class="celsius" id="celsius-link">°C | </a></span>
+          
+          <span><a href="current-temp" class="fahrenheit" id="fahrenheit-link">°F</a>
+        </span><br>
+      </div>
+      <div class="row"></div>
+      <div class="row">
+        <div class="card-group">
+          <div class="card">
+            <i class="fas fa-cloud cloud"></i>
+            <div class="card-body">
+              <h5 class="card-title">Tues</h5>
+              <p class="card-text">9°C/<br />24°C</p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fas fa-sun sun"></i>
+            <div class="card-body">
+              <h5 class="card-title">Wed</h5>
+              <p class="card-text">8°C/<br />16°C</p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fas fa-sun sun"></i>
+            <div class="card-body">
+              <h5 class="card-title">Thurs</h5>
+              <p class="card-text">10°C/<br />23°C</p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fas fa-cloud-sun cloud-sun"></i>
+            <div class="card-body">
+              <h5 class="card-title">Fri</h5>
+              <p class="card-text">9°C/<br />24°C</p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fas fa-cloud-showers-heavy rain"></i>
+            <div class="card-body">
+              <h5 class="card-title">Sat</h5>
+              <p class="card-text">7°C/<br />20°C</p>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fas fa-cloud-showers-heavy rain"></i>
+            <div class="card-body">
+              <h5 class="card-title">Sun</h5>
+              <p class="card-text">9°C/<br />21°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
