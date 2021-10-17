@@ -102,3 +102,6 @@ h3 {
 .open-source:hover {
   color: white;
 }
+.container {
+  margin-top: 25px;
+}
