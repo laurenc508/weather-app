@@ -96,3 +96,9 @@ h3 {
 .input-group {
   margin-top: 25px;
 }
+.open-source {
+  color: white;
+}
+.open-source:hover {
+  color: white;
+}
